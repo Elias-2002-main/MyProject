@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu{
+    font-family: "Abril Fatface", serif;
+    font-style: normal; 
+}
+
+/* NAVBAR */
+
+nav{
+    display: flex;
+    align-items: center;
+
+    gap: 5%;
+    padding: 0 100px;
+
+    height: 70px;
+    background-color: #6ae6ad;
+
+    font-size: 20px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    gap: 50px;
+    width: 100%;
+
+    list-style: none;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color:#0A2342;
+}
+.home_logo{
+    height: 40px;
+}
+
+/* CONTENT */
+
+.parallax-image1{
+    background: linear-gradient(180deg, #6AE6AD 0%, #E0F7F1 100%);
+    height: 100vh;
+}
+
+
+
