@@ -3,9 +3,8 @@
     padding: 0;
 }
 
-.nav-menu{
-    font-family: "Abril Fatface", serif;
-    font-style: normal; 
+body{
+    font-family:'Segoe UI', sans-serif;
 }
 
 /* NAVBAR */
@@ -26,7 +25,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    gap: 50px;
+    gap: 20px;
     width: 100%;
 
     list-style: none;
@@ -35,16 +34,45 @@ nav{
     text-decoration: none;
     color:#0A2342;
 }
+
+.nav-menu li .reg_btn{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px;
+    padding:10px;
+}
 .home_logo{
     height: 40px;
 }
 
-/* CONTENT */
+
+/* SECTIONS */
+
+.banner{
+    height: 80vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items:center
+    
+
+}
 
 .parallax-image1{
     background: linear-gradient(180deg, #6AE6AD 0%, #E0F7F1 100%);
-    height: 100vh;
 }
 
 
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  align-content: center;
+  height: 100px;
+  background-color: #6ae6ad;
+  padding: 10px;
+  color: black;
+}
 
