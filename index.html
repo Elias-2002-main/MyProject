@@ -7,36 +7,105 @@
     <link rel="stylesheet" href="style.css">
 
 
-    <!-- FONT -->
+    <!-- FONT
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> -->
 
 
 </head>
 <body>
-    <header>
+    <header id="top">
         <nav>
             <img src="images/bp_logo_new.png" class = "home_logo">
             <ul class="nav-menu">
-                <li><a href="">Cart</a></li>
-                <li><a href="account.html">Account</a></li>
-                <li><a href="register.html" class="reg_btn">Sign Up</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html" class="btn">Logout</a></li>
             </ul>
         </nav>
     </header>
+
+    <a href="#top" class="back-to-top">▲</a>
+
     
     <section>
-        <div class="parallax-image1 banner">
+        <div class="section-1 banner">
             <h1>Where Creativity Unites Us</h1>
             <p style="font-style: italic;">A vibrant community for artists,
                 illustrators, and 3D creators to showcase, collaborate, and grow together.
             </p>
+            <a href="shop.html" class="btn">Let's Go!</a>
+            
         </div>
+        <div class="section-2 about">
+            <h1>About Brush and Pixel</h1>
+            <p style="font-style: italic;">
+                Brush and Pixel is an online marketplace that brings together talented artists 
+                to showcase and sell their digital and traditional artworks. <br>
+                Whether you're looking for custom digital illustrations or timeless hand-painted pieces, we offer a wide variety of styles to match your creative taste.
+            </p>
+            <a href="about.html" class="btn2">Learn more about us!</a>
+            
+        </div>
+
+        <article>
+            <div class="section-3 community">
+                <h1>Art that Speaks, Stories that Inspire</h1>
+                <p style="font-style: italic;  margin: 30px 0;">
+                    Every piece of art tells a story, and here, we celebrate the creativity of our members.<br>
+                    Check out some of the most inspiring works shared by our artists.
+                </p>
+
+                <div class="articles">
+                    <div class="card">
+                        <img src="images/3d.jpg" alt="3d_art">
+                        <h3>3D Animations</h3>
+                        <p>
+                            Motion meets artistry. A collection of digital animations filled with life and depth.
+                        </p>
+                        <a href="#link" class="btn3">Check it out</a>
+                    </div>
+            
+                    <div class="card">
+                        <img src="images/painting.jpg" alt="3d_art">
+                        <h3>Meet the Artist: Community Spotlight</h3>
+                        <a href="#link" class="btn3">Check it out</a>
+                    </div>
+                
+                    <div class="card">
+                        <img src="images/concept_art.jpg" alt="3d_art">
+                        
+                        <h3>Sketches & Concept Art</h3>
+                        <p>
+                            The raw essence of creativity, from initial concepts to refined illustrations.
+                        </p>
+                        <a href="#link" class="btn3">Check it out</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="section-4 support">
+            <div class="box1">
+                <h1>Support Artists, Own Unique Art</h1>
+                <p style="font-style: italic;">
+                    Browse and purchase exclusive artwork from our community. Whether you're looking for digital downloads or physical prints, every purchase supports an artist and fuels creativity.
+                </p>
+                <a href="shop.html" class="btn2">Shop Now!</a>
+            </div>
+            <div class="box2">
+                <img src="images/person.jpg" alt="person">
+            </div>
+        </div>
+
+        
+
     </section>
 
     <footer>
-        <p>&copy; 2025 Brush & Pixels | Elijah Aranas. All rights reserved.</p>
+        <p>&copy; 2025 Brush & Pixel | Elijah Aranas. All rights reserved.</p>
     </footer>
 </body>
 
